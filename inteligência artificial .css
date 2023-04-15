@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+#opcoes {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#opcoes label {
+  font-weight: bold;
+}
+
+#opcoes select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
