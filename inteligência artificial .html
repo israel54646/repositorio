@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>voz artigicial</title>
+  <link rel="stylesheet" type="text/css" href="inteligência artificial .css">
+  <style>
+    textarea {
+      display: block;
+      margin: auto;
+      width: 80%;
+      height: 200px;
+      border: none;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTML com opções</h1>
+  <textarea id="texto" rows="10" placeholder="Digite aqui o texto a ser lido"></textarea>
+  <div id="opcoes">
+    <label for="velocidade">Velocidade:</label>
+    <select id="velocidade">
+      <option value="1">Normal</option>
+      <option value="1.5">1.5x</option>
+      <option value="2">2x</option>
+    </select>
+    <br>
+    <label for="personagem">Personagem:</label>
+    <select id="personagem">
+      <option value="Joana">Joana</option>
+      <option value="Luiz">Luiz</option>
+      <option value="Márcia">Márcia</option>
+    </select>
+    <br>
+    <button onclick="lerTexto()">Ler</button>
+    <button onclick="pararLeitura()">Parar</button>
+    <button onclick="baixarAudio()">Baixar Áudio</button>
+  </div>
+  <script src="inteligência artificial .js"></script>
+</body>
+</html>
